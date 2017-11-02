@@ -1,0 +1,22 @@
+body{
+    background-image: url("assets/images/TPpic.jpg");
+  }
+  
+ 
+   .container{
+    font-size:70px;
+    color: dodgerblue;
+    text-align: center;
+    height: 2000px;
+    float: center;
+    background-color: rgb(224, 224, 156);
+    opacity:0.7;
+    padding: 30px;
+    margin:100px;
+    margin
+  }
+
+  label{
+      color:black;
+      font-size:24px;
+  }
