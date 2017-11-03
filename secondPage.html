@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>P's Portfolio</title>
+    <title>Pursue the Trivia</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
     
     
-    <div class="container"> 
+    <div class="container1"> 
       <h2>Total Trivia Trivia!</h2>
       <p id="countDown"></p>
 
@@ -21,143 +25,137 @@
                 <h1>What French sculptor created the Statue of Liberty?</h1>
                <div id="quiz">
                  <div id="question1">  
-               
-                      <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                      <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                      <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                      <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
+                      <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" class="q1" value=1> </label>
+                      <label>Stephen Sauvestre<input type="radio" name="q1" class="q1" value=2></label>
+                      <label>Gustave Eiffel<input type="radio" name="q1" class="q1" value=3></label>
+                      <label>Fracois Hollande<input type="radio" name="q1" class="q1" value=4></label>  
                  </div>
                  </div>
                  </div>
                  <br>
                  <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
+                        <h1>What is the most spoken language in the world?</h1>
                        <div id="quiz">
-                         <div id="question1">  
+                         <div id="question2">  
+                        <label>Spanish<input type="radio" name="q2" class="q2" value=1> </label>
+                        <label>English<input type="radio" name="q2" class="q2" value=2></label>
+                        <label>Chinese<input type="radio" name="q2" class="q2" value=3></label>
+                        <label>Swedish<input type="radio" name="q2" class="q2" value=4></label>  
+                    </div>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                        <h1>What city is the capital of China?</h1>
+                        <div id="quiz">
+                            <div id="question3">  
+                        
+                        <label>Xian<input type="radio" name="q3" class="q3" value=1> </label>
+                        <label>Beijing<input type="radio" name="q3" class="q3" value=2></label>
+                        <label>Shanghai<input type="radio" name="q3" class="q3" value=3></label>
+                        <label>Hong Kong<input type="radio" name="q3" class="q3" value=4></label>  
+                    </div>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                        <h1>What kind of animal did Bill Clinton have in office?</h1>
+                        <div id="quiz">
+                            <div id="question4">  
                 
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
+                        <label>Cat<input type="radio" name="q4" class="q4" value=1> </label>
+                        <label>Dog<input type="radio" name="q4" class="q4" value=2></label>
+                        <label>Gold Fish<input type="radio" name="q4" class="q4" value=3></label>
+                        <label>None<input type="radio" name="q4" class="q4" value=4></label>  
                     </div>
                     </div>
                     </div>
                     <br>
                     <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
+                        <h1>What is the world's largest active volcano?</h1>
+                        <div id="quiz">
+                            <div id="question5">  
+                        
+                        <label>Vattnajökull<input type="radio" name="q5" class="q5" value=1> </label>
+                        <label>Mauna Loa<input type="radio" name="q5" class="q5" value=2></label>
+                        <label>Etna<input type="radio" name="q5" class="q5" value=3></label>
+                        <label>Yellow Stone<input type="radio" name="q5" class="q5" value=4></label>  
+                    </div>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                        <h1>How fast can a honey bee fly?</h1>
+                        <div id="quiz">
+                            <div id="question6">  
+                        
+                        <label>5 MPH<input type="radio" name="q6" class="q6" value=1> </label>
+                        <label>10 MPH<input type="radio" name="q6" class="q6" value=2></label>
+                        <label>15 MPH<input type="radio" name="q6" class="q6" value=3></label>
+                        <label>20 MPH<input type="radio" name="q6" class="q6" value=4></label>  
+                    </div>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                        <h1>Which country (and it's territories) cover the most time zones?</h1>
+                        <div id="quiz">
+                            <div id="question7">  
+                        
+                        <label>France<input type="radio" name="q7" class="q7" value=1> </label>
+                        <label>Russia<input type="radio" name="q7" class="q7" value=2></label>
+                        <label>USA<input type="radio" name="q7" class="q7" value=3></label>
+                        <label>Denmark<input type="radio" name="q7" class="q7" value=4></label>  
+                    </div>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 text-center">
+                        <h1>What is the most common name for a goldfish?</h1>
                         <div id="quiz">
                             <div id="question1">  
                         
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
+                        <label>Nemo<input type="radio" name="q8" class="q8" value=1> </label>
+                        <label>Jaws<input type="radio" name="q8" class="q8" value=2></label>
+                        <label>Phil<input type="radio" name="q8" class="q8" value=3></label>
+                        <label>Lino<input type="radio" name="q8" class="q8" value=4></label>  
                     </div>
                     </div>
                     </div>
                     <br>
-                    <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
-                        <div id="quiz">
-                            <div id="question1">  
-                
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
-                    </div>
-                    </div>
-                    </div>
                     <br>
-                    <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
-                        <div id="quiz">
-                            <div id="question1">  
-                        
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
-                    </div>
-                    </div>
-                    </div>
-                    <br>
-                    <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
-                        <div id="quiz">
-                            <div id="question1">  
-                        
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
-                    </div>
-                    </div>
-                    </div>
-                    <br>
-                    <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
-                        <div id="quiz">
-                            <div id="question1">  
-                        
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
-                    </div>
-                    </div>
-                    </div>
-                    <br>
-                    <div class="col-lg-12 text-center">
-                        <h1>What French sculptor created the Statue of Liberty?</h1>
-                        <div id="quiz">
-                            <div id="question1">  
-                        
-                        <label>Frédéric Auguste Bartholdi<input type="radio" name="q1" value=a> </label>
-                        <label>Stephen Sauvestre<input type="radio" name="q1" value=b></label>
-                        <label>Gustave Eiffel<input type="radio" name="q1" value=c></label>
-                        <label>Fracois Hollande<input type="radio" name="q1" value=c></label>  
-                    </div>
-                    </div>
-                    </div>
-                    <br>
-                
-
+                    
+                    <a onclick="showResults()" id="doneButton" class="btn btn-primary btn-lg">Done and Done!</a>
     
     </div>
-    
-     
 
-      
-  
-    <style>
-
-   
-    </style>
-
-     
-    <!-- Optional JavaScript -->
     <script>
     
     var timeLeft = 30;
-    var element = document.getElementById('countDown');
-    var timerID = setInterval(countDown, 1000);
+var element = document.getElementById('countDown');
+var timerID = setInterval(countDown, 1000);
 
-    function countDown() {
-        if(timeLeft === 0) {
-        clearTimeout(timerID);
-        showResults();
-        } 
-        else {
-        element.innerHTML = "Time Left: " + timeLeft;
-        timeLeft--;
-        }
-        }
-    countDown();
+function countDown() {
+    if(timeLeft === 0) {
+    clearTimeout(timerID);
+    showResults();
+    } 
+    else {
+    element.innerHTML = "Time Left: " + timeLeft;
+    timeLeft--;
+    }
+    }
+countDown();
 
-   
+function showResults (){
+    
+    window.location.href = "finalPage.html?correct=" + correct;
+}
 
     </script>
+     
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
